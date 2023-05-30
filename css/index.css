@@ -1,0 +1,70 @@
+nav {
+    display: flex;
+    justify-content: end;
+}
+
+.btnMenu img {
+    max-width: 40px !important;
+    margin-top: 8px;
+}
+
+header {
+    position: relative;
+    background-image: url("/img/home/portada.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.portadaTittle {
+    color: aliceblue;
+    max-width: 50%;
+    padding: 16px;
+    margin-left: 50px;
+}
+
+.portadaWelcomeLogo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.portadaWelcomeLogo img {
+    max-width: 30px !important;
+    margin-bottom: 0% !important;
+}
+
+.portadaTittle h6 {
+    color: #989898;
+    margin-bottom: 0% !important;
+    margin-right: 8px;
+
+}
+
+.portadaTittle h6 img {
+    max-width: 35px;
+    height: auto;
+}
+
+.portadaTittle p {
+    font-size: 25px;
+}
+
+.portadaTittle img {
+    margin-bottom: 80px;
+    max-width: 150px; 
+}
+
+.portadaTittle button {
+    width: 150px; height: 50px;
+    margin-top: 50px;
+
+    background-color: black;
+    color: aliceblue;
+    border: solid 1px #ffffff;
+    font-size: 12px;
+}
+
+.botonPortadaDos{
+     margin-left: 8px;
+}
