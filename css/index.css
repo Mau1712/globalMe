@@ -10,7 +10,7 @@ nav {
 
 header {
     position: relative;
-    background-image: url("/img/home/portada.jpeg");
+    background-image: url("../img/home/portada.jpeg");
     background-size: cover;
     background-position: center;
     height: 100vh;
