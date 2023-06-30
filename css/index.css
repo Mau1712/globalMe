@@ -313,8 +313,88 @@ header {
     justify-content: center;
 }
 
+.sectionCinco div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .sectionCinco img {
     padding: 50px;
+}
+
+.sectionCinco button {
+    width: 200px;
+    height: 60px;
+    margin-bottom: 25px;
+    background-color: #242331;
+    border: none;
+    color: #ffffff;
+    border-radius: 30px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+  
+}
+
+.modal-content {
+  background-image: url(../img/home/Frame\ 37264.svg);
+  background-size: cover;
+  margin: 10% auto;
+  padding: 20px;
+  width: 60% !important;
+}
+
+
+.modal-content h3 {
+    color: #ffffff;
+}
+
+.modal-content .imgModalWp {
+    padding: 0%;
+    width: 150px;
+}
+
+.modal-content .imgModalWp {
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 
@@ -368,7 +448,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: end;
-    flex-wrap: wrap;
     padding-block: 50px;
 }
 
@@ -455,6 +534,12 @@ footer {
         padding: 100px;
         margin-inline: 120px;
     }
+
+    .imgModalWp {
+        width: 100px !important;
+    }
+
+    
 }
 
 
@@ -500,7 +585,9 @@ footer {
 
     .sectionSieteControllerBox {
         padding-block: 15px;
+        flex-wrap: wrap;
     }
+
 }
 
 @media screen and (max-width: 460px) {

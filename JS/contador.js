@@ -68,3 +68,21 @@ function verificarPosicion() {
 }
 
 window.addEventListener("scroll", verificarPosicion);
+
+
+
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+window.addEventListener("click", function(event) {
+  var modal = document.getElementById("myModal");
+  if (event.target === modal) {
+    closeModal();
+  }
+});
+
