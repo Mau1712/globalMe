@@ -1,3 +1,8 @@
+.btnMenu img {
+    margin-top: 25px !important;
+}
+
+
 nav {
     display: flex;
     justify-content: end;
@@ -53,11 +58,12 @@ header {
 
 .portadaTittle .logoPortada {
     margin-bottom: 80px;
-    max-width: 250px; 
+    max-width: 250px;
 }
 
 .portadaTittle button {
-    width: 150px; height: 40px;
+    width: 150px;
+    height: 40px;
     margin-top: 50px;
 
     background-color: rgb(0, 0, 0);
@@ -66,8 +72,8 @@ header {
     font-size: 12px;
 }
 
-.botonPortadaDos{
-     margin-left: 8px;
+.botonPortadaDos {
+    margin-left: 8px;
 }
 
 .portadaTittle button:hover {
@@ -87,15 +93,491 @@ header {
     width: 50%;
     align-items: end;
     margin-right: 20px;
+    margin-top: 85px;
 }
 
 .portadaRedes img {
-    width: 60px;
-    padding-top: 15px;
+    width: 80px;
+    padding-top: 25px;
     margin-top: 10px;
     transition: transform 0.3s ease;
 }
 
 .portadaRedes img:hover {
     transform: scale(1.1);
+}
+
+
+/*------------- SECTION-DOS --------------*/
+
+.sectionDos {
+    background-image: url(../img/home/backgroundSectionDos.svg);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tittleSectionDos p {
+    color: #ffffff;
+    font-size: 45px;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.tittleSectionDos {
+    display: flex;
+    justify-content: center;
+}
+
+.tittleSectionDos p {
+    font-size: 80px;
+    padding: 5px;
+    margin-top: 45px;
+}
+
+.tittleSectionDos img {
+    width: 150px;
+    margin-top: 45px;
+}
+
+.contenedorContadores {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#sectionDosContadores1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-right: #ffffff solid 2px;
+    color: #ffffff;
+}
+
+
+#sectionDosContadores2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-right: #ffffff solid 2px;
+    color: #ffffff;
+}
+
+#sectionDosContadores3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    color: #ffffff;
+    align-items: center;
+}
+
+.textoAbout p {
+    text-align: justify;
+    font-size: 25px;
+}
+
+
+/* --------- sectionTres ------------- */
+
+.sectionTres {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-block: 50px;
+    background-color: #ffffff;
+}
+
+.tittleSectionTres {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-bottom: #3c3c3cbd solid 2px;
+}
+
+.tittleSectionTres span {
+    font-size: 25px;
+    color: #2A953D;
+
+}
+
+.tittleSectionTres p {
+    font-size: 45px;
+    padding: 20px;
+    text-align: center;
+}
+
+.pasos {
+    width: 40%;
+    margin-top: 50px;
+}
+
+.pasosControllers {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+
+.pasosControllers .imgPasos {
+    width: 80px;
+    margin-left: 15px;
+    margin-top: 15px;
+
+}
+
+
+.pasosSubControllers h4 {
+    padding: 10px;
+    font-size: 35px;
+}
+
+
+.pasosSubControllers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 15px;
+}
+
+.pasosSubControllers p {
+    padding: 10px;
+    font-size: 30px;
+}
+
+.pasosSubControllers h4 {
+    margin: 0%;
+}
+
+
+
+/* ---------- sectionCuatro ----------- */
+
+.sectionCuatro {
+    background-color: #067A4A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.lineaSectionCuatro {
+    height: 20px;
+    width: 900px;
+    border-bottom: solid 2px #ffffff;
+    margin-bottom: 100px;
+}
+
+.sectionCuatro h3 {
+    font-size: 60px;
+    text-align: center;
+    color: #ffffff;
+    padding-inline: 50px;
+    margin-inline: 50px;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+
+.scrollSectionCuatro {
+    display: flex;
+}
+
+.scrollSectionCuatro p {
+    margin: 0%;
+    padding: 10px;
+    color: #ffffff;
+}
+
+
+/* ----------- sectionCinco ----------- */
+
+.sectionCinco {
+    background-image: url(../img/home/Frame\ 37264.svg);
+
+    display: flex;
+    justify-content: center;
+}
+
+.sectionCinco img {
+    padding: 50px;
+}
+
+
+/* ----------- sectionSeis ----------- */
+
+.secntionSeis {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tittleSectionSeis {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 50px;
+}
+
+.tittleSectionSeis span {
+    padding: 15px;
+    color: #2A953D;
+}
+
+
+.textoSectionSeis {
+    text-align: center;
+    padding-bottom: 25px;
+
+}
+
+.lineaSectionSeis {
+    width: 50%;
+    height: 10px;
+    border-top: solid 2px #3c3c3cbd;
+
+    margin-block: 25px;
+}
+
+
+
+/* --------- sectionSiete ---------- */
+
+.sectionSiete {
+    background-image: url(../img/home/Rectangle\ 12.svg);
+}
+
+.sectionSieteControllerBox {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-block: 50px;
+}
+
+.sectionSieteControllerBox img {
+    padding: 20px;
+}
+
+.pruebaGratis {
+    background-image: url(../img/home/BackgroundSectionSiete.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pruebaGratis img {
+    padding: 25px;
+    padding-top: 50px;
+}
+
+
+@media screen and (max-width: 1440px) {
+
+    .portadaRedes {
+        margin-top: 0px !important;
+    }
+
+
+    .portadaRedes img {
+        width: 60px;
+        padding-top: 0px;
+        margin-top: 0%;
+        padding-bottom: 25px;
+    }
+
+    .sectionCinco img {
+        padding: 100px;
+        margin-inline: 120px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .portadaRedes {
+        margin-top: 60px;
+    }
+
+
+    .portadaRedes img {
+        width: 100px;
+        padding: 15px;
+    }
+
+    .botonPortadaDos {
+        margin-left: 0%;
+    }
+
+    .sectionCuatro h3 {
+        font-size: 35px;
+        padding-inline: 0%;
+    }
+
+    .lineaSectionCuatro {
+        width: 350px;
+        margin-bottom: 50px;
+    }
+
+    .scrollSectionCuatro {
+        margin-bottom: 35px;
+    }
+
+    .tittleSectionTres p {
+        font-size: 35px;
+    }
+
+    .pasos {
+        width: 100%;
+        padding-inline: 45px;
+    }
+
+}
+
+@media screen and (max-width: 460px) {
+    .contenedorPortada {
+        margin-top: 0%;
+        height: 100vh;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: top;
+        align-items: center;
+
+    }
+
+    .portadaTittle {
+        margin: 0% !important;
+        width: 100%;
+    }
+
+    .botonComezar {
+        width: 46% !important;
+        margin: 0% !important;
+    }
+
+    .botonPortadaDos {
+        width: 46% !important;
+        margin: 0% !important;
+    }
+
+    .contentBotones {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+
+    .portadaRedes {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0%;
+        width: 100%;
+    }
+
+    .portadaRedes img {
+        width: 80px;
+    }
+
+    .tittleSectionDos p {
+        font-size: 55px;
+    }
+
+    .tittleSectionDos img {
+        width: 100px;
+    }
+
+    .textoAbout p {
+        font-size: 20px;
+    }
+
+    .pasos {
+        width: 100%;
+        padding-inline: 10px;
+    }
+
+    .pasosControllers {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pasosSubControllers {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        text-align: center;
+    }
+
+    .pasosSubControllers h4 {
+        font-size: 25px;
+    }
+
+    .pasosSubControllers p {
+        font-size: 15px;
+    }
+
+    .imgPasos {
+        width: 120px;
+    }
+
+    .tittleSectionTres p {
+        font-size: 25px;
+    }
+
+    .tittleSectionTres span {
+        font-size: 15px;
+    }
+
+    .sectionCuatro h3 {
+        font-size: 25px;
+        margin-inline: 0%;
+        margin-top: 60px;
+    }
+
+    .sectionCinco img {
+        padding: 15px;
+    }
+}
+
+
+@media screen and (max-width: 412px) {
+    .portadaRedes {
+        margin-top: 110px !important;
+    }
+}
+
+@media screen and (max-width: 393px) {
+    .portadaRedes {
+        margin-top: 20px !important;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .portadaRedes {
+        margin-top: 0px !important;
+    }
 }
