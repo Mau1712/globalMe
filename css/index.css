@@ -368,6 +368,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: end;
+    flex-wrap: wrap;
     padding-block: 50px;
 }
 
@@ -391,6 +392,50 @@ header {
     padding-top: 50px;
 }
 
+footer {
+    background-color: #111111;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.boxIzquierdaFooter {
+    padding: 25px;
+}
+
+.boxDerechaFooter {
+    padding: 25px;
+}
+
+.boxDerechaFooter h4 {
+    color: #ffffff;
+}
+
+.boxDerechaFooter p {
+    color: #ffffff;
+}
+
+.boxIzquierdaFooter p {
+    color: #ffffff;
+}
+
+.btnFooter {
+    background-color: #2A953D;
+    color: #ffffff;
+    border: none;
+}
+
+.inputFooter {
+    background-color: #000000;
+    border: none;
+    height: 35px;
+}
+
+.inputFooter::placeholder {
+    padding: 10px;
+}
 
 @media screen and (max-width: 1440px) {
 
@@ -453,6 +498,9 @@ header {
         padding-inline: 45px;
     }
 
+    .sectionSieteControllerBox {
+        padding-block: 15px;
+    }
 }
 
 @media screen and (max-width: 460px) {
@@ -560,6 +608,13 @@ header {
 
     .sectionCinco img {
         padding: 15px;
+    }
+
+    .pruebaGratis {
+        flex-wrap: wrap;
+        margin-bottom: 25px;
+
+        background-size: cover;
     }
 }
 
