@@ -309,24 +309,11 @@ header {
 .sectionCinco {
     background-image: url(../img/home/Frame\ 37264.svg);
     background-size: cover;
-
-    display: flex;
-    justify-content: center;
 }
 
-.sectionCinco div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.carruMobileBox {
+    display: none;
 }
-
-.sectionCinco img {
-    padding: 50px;
-}
-
-
- 
-
 
 /* ----------- sectionSeis ----------- */
 
@@ -347,7 +334,7 @@ header {
 }
 
 .tittleSectionSeis p {
-    padding: 15px;
+    padding: 8px;
     color: #2A953D;
 }
 
@@ -370,6 +357,11 @@ header {
     margin-block: 25px;
 }
 
+.clientePhoto {
+    width: 150px;
+    border-radius: 100%;
+    padding-bottom: 15px;
+}
 
 
 /* --------- sectionSiete ---------- */
@@ -637,6 +629,19 @@ footer {
 
         background-size: cover;
     }
+
+
+    .carruDestokBox {
+        display: none;
+    }  
+    
+    .carruMobileBox {
+        display: block;
+    }
+    
+    .carruMobileBox .carousel-item img {
+        margin: 0%;        
+    }
 }
 
 
@@ -656,4 +661,6 @@ footer {
     .portadaRedes {
         margin-top: 0px !important;
     }
+
+    
 }
